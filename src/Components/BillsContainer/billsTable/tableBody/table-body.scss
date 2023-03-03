@@ -1,0 +1,16 @@
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    & tr{
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #a6a6a66b;
+        padding: 20px 0;;
+        & td{
+            width: calc(100% / 8);
+            text-align: center;
+        }
+    }
+}

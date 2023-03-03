@@ -1,0 +1,16 @@
+.creditCardInfosContainer{
+    padding: 0 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 0 0 0;
+    width: 100%;
+
+    & .creditCardContainer{
+        width: 30%;
+    }
+    & img{
+        cursor: pointer;
+        margin: 0 20px;
+    }
+}

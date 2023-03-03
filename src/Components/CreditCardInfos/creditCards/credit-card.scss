@@ -1,0 +1,33 @@
+.creditCard{
+    background: linear-gradient(180deg, #FA8028 0%, #EE8D47 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & span{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        background: -webkit-linear-gradient(#b8b8b8, #fffdfd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+    & .bottomCreditCard{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        & .chipContainer{
+            display: flex;
+            flex-direction: column;
+        }
+        & .creditCardBrand{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}

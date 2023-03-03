@@ -1,0 +1,32 @@
+@import '../../../colors.scss';
+
+.resultsCard__container{
+    background-color: $green;
+    font-family: 'Inter', sans-serif;
+    width: 33%;
+    border-radius: 5px;
+    height: 13vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 20px 20px 40px;
+    
+    & .resultsCard__content{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        & .resultsCard__header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & h2{
+                color: #A3A1A1;
+                font-weight: 600;
+                font-size: 15px;
+            }
+        }
+        & span{
+            color: #464646;
+            font-size: 26px;
+            font-weight: 600;
+        }
+    }
+}

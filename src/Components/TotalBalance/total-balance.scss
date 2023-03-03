@@ -1,0 +1,53 @@
+.totalBalance{
+    //margin: 30px 20%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    & div{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        & p{
+            font-size: 14px;
+            font-weight: 400;
+        }
+        & span{
+            font-weight: 600;
+        }
+    }
+    & .totalLimit{
+        width: 20%;
+        height: 100%;
+        padding: 20px;
+        color: #2E95C1;
+    }
+
+    & .usedLimit{
+        width: 20%;
+        padding: 20px;
+        color: #F07A7A;
+    }
+
+    & .availableLimit{
+        width: 20%;
+        padding: 20px;
+        color: #6BB160;
+    }
+
+    & .installmentLimit{
+        width: 20%;
+        padding: 20px;
+        color: #B160AE;
+    }
+
+    & .nextBill{
+        width: 20%;
+        padding: 20px;
+        background-color: #E4E2E2;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}

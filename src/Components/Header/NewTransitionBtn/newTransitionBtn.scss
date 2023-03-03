@@ -1,0 +1,19 @@
+@import '../../../colors.scss';
+
+.newTransitionBtn{
+    background-color: $green;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #464646;
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: transparent;
+        border: 1px solid $green;
+        color: #fff;
+    }
+}
+

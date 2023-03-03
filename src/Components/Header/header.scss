@@ -1,0 +1,21 @@
+@import '../../colors.scss';
+
+header{
+    background-color: $purple;
+    //width: 100vw;
+    height: 30vh;
+
+    & .header__container{
+        display: flex;
+        justify-content: center;
+        //width: 100vw;
+        & .header__content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 60vw;
+            height: 10vh;
+        }
+    }
+}
+
